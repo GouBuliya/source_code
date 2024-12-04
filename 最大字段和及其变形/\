@@ -1,0 +1,57 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long 
+const int INF=(1<<31);
+ll re ()
+{
+    ll t;
+    cin>>t;
+    return t;
+}
+namespace my
+{
+const int maxn=1e6+10;
+int A[maxn];
+deque<int>dq;
+int n,k;
+bool max(int a,int b){return a<=b;}
+bool min(int a,int b){return a>=b;}
+void getque(bool (*cmp)(int,int))
+{
+    dq.clear();
+    for(int i=1;i<k;++i)
+    {
+        while(!dq.empty()&&cmp(A[dq.front()],A[i]))dq.pop_back();
+        dq.push_front(i);
+    }
+    cout<<dq.front()<<" ";
+    for(int i=k;i<=n;++i)
+    {
+        while(A[dq.back()]<=i-k)dq.pop_back();
+        while(!dq.empty()&&cmp(A[dq.front()],A[i]))dq.pop_front();
+        dq.push_front(i);
+        cout<<dq.front()<<" ";
+    }
+    cout<<endl;
+}
+signed main ()
+{
+#ifndef ONLINE_JUDGE
+    freopen("in.txt", "r", stdin);
+#endif
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    n=re(),k=re();
+    for(int i=1;i<=n;++i)
+        A[i]=re();
+    my::getque(my::min);
+    my::getque(my::max);
+
+    return 0;
+}
+}
+signed main ()
+{
+    return my::main();
+}
