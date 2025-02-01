@@ -1,0 +1,1 @@
+{"name":"Local: temp","url":"/home/li-xufeng/source_code/temp.py","tests":[{"id":1736684935510,"input":"5 4\n2 4\n3 5\n1 4\n2 5\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/li-xufeng/source_code/temp.py","group":"local","local":true}

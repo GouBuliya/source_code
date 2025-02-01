@@ -1,0 +1,1 @@
+{"name":"Luogu - P11621","url":"https://www.luogu.com.cn/problem/P11621","memoryLimit":524288,"timeLimit":3000,"tests":[{"input":"8\n1 8 10 2 2\n2 1 5 3 4\n1 8 5 7 10\n1 1 5 4 10\n1 4 2 1 1\n1 8 5 8 9\n2 2 6 2 9\n1 8 9 2 3","output":"0\n61","id":1738042213072}],"group":"luogu","srcPath":"/home/li-xufeng/source_code/Luogu_P_11621.cpp"}

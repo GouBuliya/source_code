@@ -1,0 +1,1 @@
+{"name":"Local: temp","url":"/home/li-xufeng/source_code/temp.cpp","tests":[{"id":1737190921475,"input":"1145 14 19 19 810","output":"378692316"},{"id":1737192337716,"input":"3 2 3 2 3\n","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/li-xufeng/source_code/temp.cpp","group":"local","local":true}

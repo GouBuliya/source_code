@@ -1,0 +1,1 @@
+{"name":"Luogu - P4147 - 玉蟾宫","url":"https://www.luogu.com.cn/problem/P4147","memoryLimit":524288,"timeLimit":1000,"tests":[{"id":1738051095352,"input":"5 6 \nR F F F F F \nF F F F F F \nR R R F F F \nF F F F F F \nF F F F F F","output":"45"}],"group":"luogu","srcPath":"/home/li-xufeng/source_code/Luogu_P_4147_玉蟾宫.cpp"}

@@ -1,0 +1,1 @@
+{"name":"Luogu - [USACO09MAR] Look Up S","url":"https://www.luogu.com.cn/problem/P2947","memoryLimit":512000,"timeLimit":1000,"tests":[{"id":1738326670547,"input":"6 \n3 \n2 \n6 \n1 \n1 \n2 \n","output":"3 \n3 \n0 \n6 \n6 \n0 \n"}],"group":"luogu","srcPath":"/home/li-xufeng/source_code/Luogu_USACO_09_MAR_Look_Up_S.cpp"}
